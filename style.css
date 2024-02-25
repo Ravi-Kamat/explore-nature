@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:opsz,wght@6..96,400;6..96,800&family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: url(https://images.unsplash.com/photo-1533162507191-d90c625b2640?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  padding: 0 8%;
+}
+nav {
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 20px 0;
+}
+.logo {
+  color: transparent;
+  font-weight: 700;
+  font-size: 25px;
+  /* text-shadow: 1px 1px 2px black, 0 0 25px rgb(251, 226, 0),
+    0 0 5px rgb(243, 239, 2); */
+  -webkit-text-stroke: 2px #03290e;
+}
+nav ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+nav ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+nav ul button {
+  padding: 10px 15px;
+  font-weight: 500;
+  border-radius: 50px;
+  border: none;
+  background: #dfadad;
+  cursor: pointer;
+}
+nav ul button:hover {
+  color: rgb(251, 251, 251);
+  background: #b3aeae;
+}
+.content {
+  margin-top: 250px;
+  color: #fff;
+}
+.content h1 {
+  padding-bottom: 30px;
+}
+.content p {
+  padding-top: 10px;
+}
+.content button {
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.content .try:hover {
+  background: transparent;
+  border: 1px solid #fff;
+
+  color: #fff;
+}
+.content .sign-up {
+  background: transparent;
+  border: 1px solid #fff;
+  margin-left: 30px;
+  color: #fff;
+}
+.content .sign-up:hover {
+  color: #03290e;
+  background: #9c9b9b;
+  border: none;
+}
